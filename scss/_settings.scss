@@ -1,0 +1,48 @@
+#game-config {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+.player-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  li {
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    background-color: #f3e3ff;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba($color: #000000, $alpha: 0.2);
+  }
+}
+
+@media (min-width: 40rem) {
+  .player-container {
+    flex-direction: row;
+  }
+}
+
+.player-card {
+  h2 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: $secondary-color;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2f0408;
+    margin-bottom: 1rem;
+  }
+}
